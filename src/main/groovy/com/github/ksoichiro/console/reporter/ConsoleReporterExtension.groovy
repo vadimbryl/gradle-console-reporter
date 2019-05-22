@@ -7,7 +7,7 @@ import org.gradle.api.GradleException
 import org.gradle.util.ConfigureUtil
 
 class ConsoleReporterExtension {
-    public static final NAME = 'consoleReporter'
+    public static final NAME = 'consoleReporterConfig'
     JUnitReportConfig junit
     JacocoReportConfig jacoco
     CoberturaReportConfig cobertura
